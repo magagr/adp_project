@@ -7,7 +7,7 @@ This is the project report template.
 Fill it out over the course of the project.
 
 # Project Description
-Recycled Corp is a world leader in recycling and we have just conducted a 
+Recycled Corp is a world leader in recycling and we have just conducted a
 study in why people are not recycling. Our idea is an application that can
 help people to scan products via barcode (Or type it in) and see which
 products can be recycled, how and where to recycle them. We also want to
@@ -38,6 +38,7 @@ Feature | Time estimated | Time spent per team member
 Set up the project environment | 12 hours | Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, Emil: 2 hours, Jesper O: 2 hours, Jesper R: 2 hours  
 Filled the backlog and met with the customer | 6 hours | Kalayu: 1 hour, Johan: 1 hour, Mahshid: 1 hour, Emil: 1 hour, Jesper O: 1 hour, Jesper R: 1 hour
 Initialised the report | 20 mins | Jesper O: 20 mins
+Initialised the Android Project | 20 mins | Johan: 20 mins
 *Name and ID of each feature* | *X hours* | *Member A: Y hours, Member B: Z hours*
 
 
