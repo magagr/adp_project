@@ -21,7 +21,7 @@ The git repository can be found at https://github.com/IT-Kakan/adp_project
 
 The issue tracker can be found at https://trello.com/b/xZWxyu2J/agile-development-processes
 
-The continuous integration builds cab be found at -
+The continuous integration builds cab be found at https://travis-ci.org/IT-Kakan/adp_project
 
 # Sprint 1 Log
 Per sprint, fill out one sprint log section and its subsections.
