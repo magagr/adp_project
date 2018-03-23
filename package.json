@@ -1,0 +1,5 @@
+{
+    "name": "spacey-dummy",
+    "description": "Dummy package to enable npm detection on Heroku. The real npm dependencies are listed in SpaceY/package.json.",
+    "version": "0.0.0"
+}
