@@ -21,13 +21,19 @@ The git repository can be found at https://github.com/IT-Kakan/adp_project
 
 The issue tracker can be found at https://trello.com/b/xZWxyu2J/agile-development-processes
 
-The continuous integration builds cab be found at -
+The continuous integration builds can be found at -
 
 # Sprint 1 Log
 Per sprint, fill out one sprint log section and its subsections.
 
 ## Commitment
 List the features/stories that the team committed to finish during the sprint.
+
+- Fill backlog with possible features
+- Select one spokesperson in the group
+- Create a HelloWorld application (Initialize Android project)
+- Create and upload a first report
+- Implement Travis continuous integration
 
 ## Work Done
 Log what was accomplished, and how.
