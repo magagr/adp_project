@@ -24,7 +24,6 @@ The issue tracker can be found at https://trello.com/b/xZWxyu2J/agile-developmen
 The continuous integration builds cab be found at https://travis-ci.org/IT-Kakan/adp_project
 
 # Sprint 1 Log
-Per sprint, fill out one sprint log section and its subsections.
 
 ## Commitment
 List the features/stories that the team committed to finish during the sprint.
@@ -37,8 +36,30 @@ Feature | Time estimated | Time spent per team member
 --------|----------------|--------
 Set up the project environment | 12 hours | Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, Emil: 2 hours, Jesper O: 2 hours, Jesper R: 2 hours  
 Filled the backlog and met with the customer | 6 hours | Kalayu: 1 hour, Johan: 1 hour, Mahshid: 1 hour, Emil: 1 hour, Jesper O: 1 hour, Jesper R: 1 hour
-Initialised the report | 20 mins | Jesper O: 20 mins
+Initialised the report | 40 mins | Jesper O: 40 mins
 Initialised the Android Project | 20 mins | Johan: 20 mins
+Set up Travis-CI | 20 mins | Jesper O: 20 mins
+*Name and ID of each feature* | *X hours* | *Member A: Y hours, Member B: Z hours*
+
+
+## Reflections
+There is not much to reflect on, as this was not a typical development sprint. We met for the first time and set up the basis for the project. We were successful in splitting the work between us and managed to complete all assigned tasks.
+
+Given the atypical nature of this sprint, we have chosen to not reflect on agile practices.
+
+# Sprint 2 Log
+Per sprint, fill out one sprint log section and its subsections.
+
+## Commitment
+List the features/stories that the team committed to finish during the sprint.
+
+## Work Done
+Log what was accomplished, and how.
+Please report on all activities; for example, in addition to coding, planning and design discussion.
+
+Feature | Time estimated | Time spent per team member
+--------|----------------|--------
+Set up the project environment | 12 hours | Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, 
 *Name and ID of each feature* | *X hours* | *Member A: Y hours, Member B: Z hours*
 
 
@@ -62,7 +83,6 @@ Reflect on the agile practice practiced:
   Did they complement or counteract each other?
 
 - How efficient were the practices, given the time they took to use?
-
 
 # Sprint X Log
 *As for the previous sprints.*
