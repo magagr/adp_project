@@ -45,7 +45,7 @@ Set up Travis-CI | 20 mins | Jesper O: 20 mins
 ## Reflections
 There is not much to reflect on, as this was not a typical development sprint. We met for the first time and set up the basis for the project. We were successful in splitting the work between us and managed to complete all assigned tasks.
 
-Given the atypical nature of this sprint, we have chosen to not reflect on agile practices.
+Given the atypical nature of this sprint, we have chosen to not reflect on agile practices. However, we have made knowledge transfer within the group, as we had different experiance on setting up of the basis of the project. 
 
 # Sprint 2 Log
 Per sprint, fill out one sprint log section and its subsections.
