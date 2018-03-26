@@ -21,16 +21,11 @@ The git repository can be found at https://github.com/IT-Kakan/adp_project
 
 The issue tracker can be found at https://trello.com/b/xZWxyu2J/agile-development-processes
 
-<<<<<<< HEAD
-The continuous integration builds can be found at -
-=======
 The continuous integration builds cab be found at https://travis-ci.org/IT-Kakan/adp_project
->>>>>>> master
 
 # Sprint 1 Log
 
 ## Commitment
-List the features/stories that the team committed to finish during the sprint.
 
 - Fill backlog with possible features
 - Select one spokesperson in the group
@@ -39,8 +34,6 @@ List the features/stories that the team committed to finish during the sprint.
 - Implement Travis continuous integration
 
 ## Work Done
-Log what was accomplished, and how.
-Please report on all activities; for example, in addition to coding, planning and design discussion.
 
 Feature | Time estimated | Time spent per team member
 --------|----------------|--------
@@ -55,7 +48,7 @@ Set up Travis-CI | 20 mins | Jesper O: 20 mins
 ## Reflections
 There is not much to reflect on, as this was not a typical development sprint. We met for the first time and set up the basis for the project. We were successful in splitting the work between us and managed to complete all assigned tasks.
 
-Given the atypical nature of this sprint, we have chosen to not reflect on agile practices. However, we have made knowledge transfer within the group, as we had different experiance on setting up of the basis of the project. 
+Given the atypical nature of this sprint, we have chosen to not reflect on agile practices. However, we have made knowledge transfer within the group, as we had different experiance on setting up of the basis of the project.
 
 # Sprint 2 Log
 Per sprint, fill out one sprint log section and its subsections.
@@ -69,7 +62,7 @@ Please report on all activities; for example, in addition to coding, planning an
 
 Feature | Time estimated | Time spent per team member
 --------|----------------|--------
-Set up the project environment | 12 hours | Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, 
+Set up the project environment | 12 hours | Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours,
 *Name and ID of each feature* | *X hours* | *Member A: Y hours, Member B: Z hours*
 
 
