@@ -48,6 +48,23 @@ There is not much to reflect on, as this was not a typical development sprint. W
 
 Given the atypical nature of this sprint, we have chosen to not reflect on agile practices. However, we have made knowledge transfer within the group, as we had different experiance on setting up of the basis of the project.
 
+# Sprint 2 Log
+Per sprint, fill out one sprint log section and its subsections.
+
+## Commitment
+List the features/stories that the team committed to finish during the sprint.
+
+## Work Done
+Log what was accomplished, and how.
+Please report on all activities; for example, in addition to coding, planning and design discussion.
+
+Feature | Time estimated | Time spent per team member
+--------|----------------|--------
+Acceptance test 1 | 3 hours 30 mins | Kalayu: 30 mins, Johan: 30 mins, Mahshid: 30 mins, Tom: 30 mins, Emil: 30 mins, Jesper O: 30 mins, Jesper R: 30 mins
+Planning | 6 hours 10 mins | Kalayu: 50 mins, Johan: 50 mins, Mahshid: 50 mins, Tom: 50 mins, Emil: 50 mins, Jesper O: 50 mins, Jesper R: 50 mins
+
+## Reflections
+
 # Sprint X Log
 Per sprint, fill out one sprint log section and its subsections.
 
@@ -61,7 +78,6 @@ Please report on all activities; for example, in addition to coding, planning an
 Feature | Time estimated | Time spent per team member
 --------|----------------|--------
 *Name and ID of each feature* | *X hours* | *Member A: Y hours, Member B: Z hours*
-
 
 ## Reflections
 Reflect on how the work worked.
