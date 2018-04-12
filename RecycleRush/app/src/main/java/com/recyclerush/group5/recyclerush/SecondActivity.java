@@ -27,7 +27,7 @@ public class SecondActivity extends Activity{
 
         text1.setText(getIntent().getExtras().getString("name"));
         text2.setText(getIntent().getExtras().getString("materials"));
-        Toast.makeText(getApplicationContext(), "Recycable!", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), getIntent().getExtras().getString("recyc"), Toast.LENGTH_LONG).show();
 
 
         text3.setText("Material:");

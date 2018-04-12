@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         displayInfo.putExtra("scanId", obj.getScanId());
         displayInfo.putExtra("name", obj.getName());
         displayInfo.putExtra("materials", obj.getMaterials());
+        if (obj.isRecycleable()) {
+            displayInfo.putExtra("recyc", "Recycable!");
+        } else {
+            displayInfo.putExtra("recyc", "Not Recycable!");
+        }
         startActivity(displayInfo);
     }
 
