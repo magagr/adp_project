@@ -51,19 +51,37 @@ Given the atypical nature of this sprint, we have chosen to not reflect on agile
 # Sprint 2 Log
 Per sprint, fill out one sprint log section and its subsections.
 
-## Commitment
-List the features/stories that the team committed to finish during the sprint.
+Commitment
+* The group attended the acceptance test and sprint retrospective for the last sprint.
+* We estimated the story points for each feature in sprint 2's backlog using planning poker.
 
-## Work Done
-Log what was accomplished, and how.
-Please report on all activities; for example, in addition to coding, planning and design discussion.
+We completed the following user stories
+* ID: 1. As a customer I instantly want to be prompted with the camera on my phone so that I can scan items (Estimate: 4 pts)
+* ID: 2. As a user I want to see what products that can be recycled so that I can recycle properly (Estimate: 7 pts)
 
-Feature | Time estimated | Time spent per team member
---------|----------------|--------
-Acceptance test 1 | 3 hours 30 mins | Kalayu: 30 mins, Johan: 30 mins, Mahshid: 30 mins, Tom: 30 mins, Emil: 30 mins, Jesper O: 30 mins, Jesper R: 30 mins
-Planning | 6 hours 10 mins | Kalayu: 50 mins, Johan: 50 mins, Mahshid: 50 mins, Tom: 50 mins, Emil: 50 mins, Jesper O: 50 mins, Jesper R: 50 mins
+
+
+
+Work done
+[previous stuff]
+
+ID: 1. | 3 hours | Jesper O: 3 hours
+ ID: 2. | 4 hours 20 mins | Mahshid: 2 hours, Emil: 2 hours, Jesper R: 1 hour
+ ID: 3. | 8 hours 10 mins | Kalayu: 3 hours 40 mins , Johan: 4 hours 10 mins, Tom: 20 mins
+
+
+Stand-up meetings | 2 hours 20 mins | Kalayu: 20 mins, Johan: 20 mins, Mahshid: 20 mins, Emil: 20 mins, Jesper O: 20 mins, Jesper R: 20 mins
+Impedement removal | 45 mins | Jesper O: 45 mins
+ 
+Wrote report | 1 hours 20 mins | Jesper O: 40 mins, Jesper R: 40 mins
 
 ## Reflections
+
+We had three group meetings in this sprint that were about two hours long each. The team work seems to improve, as there was a lot of communication on the tasks and team members that were done with their task tried to helped the others with theirs. However we noticed that it is hard to find meeting times where everybody is available.
+
+The team velocity were quite inaccurate this sprint. All the group members finished quite fast with each task. After the acceptance test 1 we talked with our product owner(Magnus), about what he expects after the upcoming sprint. He gave us the minimum requirements for the sprint, and this made us estimated the work to be done, in a way of the "demands" of Magnus. Throughout the sprint we realised that this is the wrong way to go, since our estimations were a reflection of Magnus demands. For the upcoming sprint we will estimate a set of task before meeting with Magnus, to gain a better overview of what the group actually are able to achieve in one sprint.
+
+Mahshid and Emil experienced pair-programming in our group and it took 4 hours to complete task. One positive aspect of this practice was knowledge transfering because we have this chance that one act as a observer and monitored the driver's code in order to collaburate regularly and switched the role at any time. However, we experience some difficulties in time management.
 
 # Sprint X Log
 Per sprint, fill out one sprint log section and its subsections.
