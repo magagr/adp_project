@@ -21,24 +21,14 @@ public class SecondActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_layout);
 
-        String scanId = getIntent().getExtras().getString("scanId");
-
         text1=(TextView) findViewById(R.id.textView);
         text2=(TextView) findViewById(R.id.textView2);
         text3=(TextView) findViewById(R.id.textView3);
 
-        if (scanId.equals("7340131610000")) {
-            text1.setText("Redbull");
-            text2.setText("Metal");
-                Toast.makeText(getApplicationContext(), "Recycable!", Toast.LENGTH_LONG).show();
+        text1.setText(getIntent().getExtras().getString("name"));
+        text2.setText(getIntent().getExtras().getString("materials"));
+        Toast.makeText(getApplicationContext(), "Recycable!", Toast.LENGTH_LONG).show();
 
-
-        } else if (scanId.equals("7311250004360")) {
-            text1.setText("Snus");
-            text2.setText("Plastic, Paper");
-            Toast.makeText(getApplicationContext(), "Recycable", Toast.LENGTH_LONG).show();
-
-        }
 
         text3.setText("Material:");
 
