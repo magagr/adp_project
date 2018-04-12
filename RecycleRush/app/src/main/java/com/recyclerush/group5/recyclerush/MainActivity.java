@@ -2,12 +2,17 @@ package com.recyclerush.group5.recyclerush;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
 
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 import com.recyclerush.group5.recyclerush.itemObject;
 import com.recyclerush.group5.recyclerush.SecondActivity;
 
@@ -26,13 +31,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.i("mainactivity", "test");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_layout);
-        displayHelper("7340131610000");
+        openScanner();
 
-        map.put("7340131610000", redbull);
-        map.put("7311250004360", snus);
-        openCameraIfAllowed();
+    }
+
+    private void openScanner() {
+        IntentIntegrator scanIntegrator = new IntentIntegrator(this);
+        scanIntegrator.initiateScan();
     }
 
     private void openCameraIfAllowed() {
@@ -71,7 +78,22 @@ public class MainActivity extends AppCompatActivity {
         startActivity(displayInfo);
     }
 
+
     private itemObject getScannedItem(String id){
             return map.get(id);
+    }
+    
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent in) {
+        super.onActivityResult(requestCode, resultCode, in);
+        IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, in);
+        if (scanningResult != null) {
+            try {
+                Log.i("barcode", in.getStringExtra("SCAN_RESULT"));
+                setContentView(R.layout.second_layout);
+                displayHelper(in.getStringExtra("SCAN_RESULT"));
+            }
+            catch (NullPointerException e){}
+        }
     }
 }
