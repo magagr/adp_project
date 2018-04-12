@@ -2,8 +2,12 @@ package com.recyclerush.group5.recyclerush;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.constraint.ConstraintLayout;
+import android.support.design.widget.Snackbar;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +20,8 @@ public class SecondActivity extends Activity{
     TextView text2;
     TextView text3;
 
+    ConstraintLayout layout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +33,14 @@ public class SecondActivity extends Activity{
 
         text1.setText(getIntent().getExtras().getString("name"));
         text2.setText(getIntent().getExtras().getString("materials"));
-        Toast.makeText(getApplicationContext(), getIntent().getExtras().getString("recyc"), Toast.LENGTH_LONG).show();
 
+        layout = (ConstraintLayout) findViewById(R.id.layout);
+        Snackbar snack = Snackbar.make(layout, getIntent().getExtras().getString("recyc"), Snackbar.LENGTH_INDEFINITE);
+        View snackView = snack.getView();
+        TextView textView = snackView.findViewById(android.support.design.R.id.snackbar_text);
+        textView.setBackgroundColor(0xFF009446);
+
+        snack.show();
 
         text3.setText("Material:");
 
