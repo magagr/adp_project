@@ -11,19 +11,27 @@ import android.util.Log;
 import com.recyclerush.group5.recyclerush.itemObject;
 import com.recyclerush.group5.recyclerush.SecondActivity;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class MainActivity extends AppCompatActivity {
 
-
+    HashMap<String, itemObject> map = new HashMap<String, itemObject>();
     // Create two objects, one for snus and one for redbull
     itemObject redbull = new itemObject("Redbull","7340131610000", true, "metal" );
     itemObject snus = new itemObject("Snus", "7311250004360", true, "plastic, paper");
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_layout);
         displayHelper("7340131610000");
+
+        map.put("7340131610000", redbull);
+        map.put("7311250004360", snus);
         openCameraIfAllowed();
     }
 
@@ -54,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         displayInfo.putExtra("scanId", obj.getScanId());
         displayInfo.putExtra("name", obj.getName());
         displayInfo.putExtra("materials", obj.getMaterials());
+
         if (obj.isRecycleable()) {
             displayInfo.putExtra("recyc", "Recycable!");
         } else {
@@ -62,5 +71,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(displayInfo);
     }
 
-
+    private itemObject getScannedItem(String id){
+            return map.get(id);
+    }
 }
