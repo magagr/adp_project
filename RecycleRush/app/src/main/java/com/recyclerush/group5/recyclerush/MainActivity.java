@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.recyclerush.group5.recyclerush.itemObject;
+import com.recyclerush.group5.recyclerush.SecondActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -15,8 +16,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.second_layout);
+        display();
         openCameraIfAllowed();
+    }
+
+    private void display() {
+        Intent displayInfo = new Intent(this, SecondActivity.class);
+        displayInfo.putExtra("scanId", "7340131610000");
+        startActivity(displayInfo);
     }
 
     private void openCameraIfAllowed() {
