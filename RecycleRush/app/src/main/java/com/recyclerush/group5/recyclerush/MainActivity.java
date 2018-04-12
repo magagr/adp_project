@@ -21,12 +21,6 @@ public class MainActivity extends AppCompatActivity {
         openCameraIfAllowed();
     }
 
-    private void display() {
-        Intent displayInfo = new Intent(this, SecondActivity.class);
-        displayInfo.putExtra("scanId", "7340131610000");
-        startActivity(displayInfo);
-    }
-
     private void openCameraIfAllowed() {
         PackageManager packageManager = getPackageManager();
 
@@ -43,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
     // use functions in the itemobjectclass to retrieve information about each object.
     //String snusname = snus.getName();
     //String snusID = snus.getScanId();
+
+    private void display() {
+        Intent displayInfo = new Intent(this, SecondActivity.class);
+        displayInfo.putExtra("scanId", "7340131610000");
+        startActivity(displayInfo);
+    }
 
 
 }

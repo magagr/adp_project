@@ -30,13 +30,17 @@ public class SecondActivity extends Activity{
         if (scanId.equals("7340131610000")) {
             text1.setText("Redbull");
             text2.setText("Metal");
-            text3.setText("Recycable");
+                Toast.makeText(getApplicationContext(), "Recycable!", Toast.LENGTH_LONG).show();
+
 
         } else if (scanId.equals("7311250004360")) {
             text1.setText("Snus");
             text2.setText("Plastic, Paper");
-            text3.setText("Recycable");
+            Toast.makeText(getApplicationContext(), "Recycable", Toast.LENGTH_LONG).show();
+
         }
+
+        text3.setText("Material:");
 
     }
 }
