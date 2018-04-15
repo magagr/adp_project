@@ -58,6 +58,7 @@ Commitment
 We completed the following user stories
 * ID: 1. As a customer I instantly want to be prompted with the camera on my phone so that I can scan items (Estimate: 4 pts)
 * ID: 2. As a user I want to see what products that can be recycled so that I can recycle properly (Estimate: 7 pts)
+* ID: 3. As a user I want to scan at least two different item/product so that I can get information about them in the application (Estimate: 7 pts)
 
 
 
@@ -65,7 +66,7 @@ We completed the following user stories
 Work done
 [previous stuff]
 
-ID: 1. | 3 hours | Jesper O: 3 hours
+ ID: 1. | 3 hours | Jesper O: 3 hours
  ID: 2. | 4 hours 20 mins | Mahshid: 2 hours, Emil: 2 hours, Jesper R: 1 hour
  ID: 3. | 8 hours 10 mins | Kalayu: 3 hours 40 mins , Johan: 4 hours 10 mins, Tom: 20 mins
 
@@ -81,7 +82,7 @@ We had three group meetings in this sprint that were about two hours long each. 
 
 The team velocity were quite inaccurate this sprint. All the group members finished quite fast with each task. After the acceptance test 1 we talked with our product owner(Magnus), about what he expects after the upcoming sprint. He gave us the minimum requirements for the sprint, and this made us estimated the work to be done, in a way of the "demands" of Magnus. Throughout the sprint we realised that this is the wrong way to go, since our estimations were a reflection of Magnus demands. For the upcoming sprint we will estimate a set of task before meeting with Magnus, to gain a better overview of what the group actually are able to achieve in one sprint.
 
-Mahshid and Emil experienced pair-programming in our group and it took 4 hours to complete task. One positive aspect of this practice was knowledge transfering because we have this chance that one act as a observer and monitored the driver's code in order to collaburate regularly and switched the role at any time. However, we experience some difficulties in time management.
+Mahshid and Emil experienced pair-programming in our group and it took 4 hours to complete task. Moreover, Johan and Kalayu also partly applied extreme programming agile practices while applying an API for our barcode scanner feature. One positive aspect of this practice was knowledge transfering because we have this chance that one act as a observer and monitored the driver's code in order to collaburate regularly and switched the role at any time. However, we experience some difficulties in time management.
 
 # Sprint X Log
 Per sprint, fill out one sprint log section and its subsections.
