@@ -1,4 +1,6 @@
-language: c # not really, but using make
+language: csharp
+mono: none
+dotnet: 2.1.101
 
 # pandoc is used to generate the output files
 # the pandoc version in the package management system is a tad old though
@@ -18,7 +20,10 @@ addons:
 
 # the build step, details in the Makefile
 script:
-  PANDOC=./pandoc make all
+  - PANDOC=./pandoc make all
+# restore nuget packages and run tests
+  - dotnet restore
+  - dotnet test ./SpaceY.Tests/SpaceY.Tests.csproj
 
 # for tagged versions, deploy the built files to github
 deploy:
