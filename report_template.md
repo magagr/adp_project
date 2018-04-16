@@ -51,7 +51,7 @@ Given the atypical nature of this sprint, we have chosen to not reflect on agile
 # Sprint 2 Log
 Per sprint, fill out one sprint log section and its subsections.
 
-Commitment
+## Commitment
 * The group attended the acceptance test and sprint retrospective for the last sprint.
 * We estimated the story points for each feature in sprint 2's backlog using planning poker.
 
@@ -63,7 +63,7 @@ We completed the following user stories
 
 
 
-Work done
+## Work done
 [previous stuff]
 
  ID: 1. | 3 hours | Jesper O: 3 hours
@@ -73,7 +73,7 @@ Work done
 
 Stand-up meetings | 2 hours 20 mins | Kalayu: 20 mins, Johan: 20 mins, Mahshid: 20 mins, Emil: 20 mins, Jesper O: 20 mins, Jesper R: 20 mins
 Impedement removal | 45 mins | Jesper O: 45 mins
- 
+
 Wrote report | 1 hours 20 mins | Jesper O: 40 mins, Jesper R: 40 mins
 
 ## Reflections
