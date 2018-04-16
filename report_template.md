@@ -1,6 +1,6 @@
 % Agile Development Processes Project Report  
   Team 5
-% Kalayu Yemane Berhe; Johan Carlshede; Mahshid Golbaz Khanian; Emil Lundgren; Jesper Olsson; Jesper Rask
+% Kalayu Yemane Berhe; Johan Carlshede; Mahshid Golbaz Khanian; Tom Ille; Emil Lundgren; Jesper Olsson; Jesper Rask
 %
 
 This is the project report template.
@@ -37,11 +37,11 @@ The continuous integration builds cab be found at https://travis-ci.org/IT-Kakan
 
 Feature | Time estimated | Time spent per team member
 --------|----------------|--------
-Set up the project environment | 12 hours | Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, Emil: 2 hours, Jesper O: 2 hours, Jesper R: 2 hours  
-Filled the backlog and met with the customer | 6 hours | Kalayu: 1 hour, Johan: 1 hour, Mahshid: 1 hour, Emil: 1 hour, Jesper O: 1 hour, Jesper R: 1 hour
-Initialised the report | 40 mins | Jesper O: 40 mins
-Initialised the Android Project | 20 mins | Johan: 20 mins
-Set up Travis-CI | 20 mins | Jesper O: 20 mins
+*Set up the project environment*|*12 hours*|*Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, Emil: 2 hours, Jesper O: 2 hours, Jesper R: 2 hours*
+*Filled the backlog and met with the customer*|*6 hours*|*Kalayu: 1 hour, Johan: 1 hour, Mahshid: 1 hour, Emil: 1 hour, Jesper O: 1 hour, Jesper R: 1 hour*
+*Initialised the report*|*40 mins*|*Jesper O: 40 mins*
+*Initialised the Android Project*|*20 mins*|*Johan: 20 mins*
+*Set up Travis-CI*|*20 mins*|*Jesper O: 20 mins*
 
 ## Reflections
 There is not much to reflect on, as this was not a typical development sprint. We met for the first time and set up the basis for the project. We were successful in splitting the work between us and managed to complete all assigned tasks.
@@ -49,13 +49,13 @@ There is not much to reflect on, as this was not a typical development sprint. W
 Given the atypical nature of this sprint, we have chosen to not reflect on agile practices. However, we have made knowledge transfer within the group, as we had different experiance on setting up of the basis of the project.
 
 # Sprint 2 Log
-Per sprint, fill out one sprint log section and its subsections.
 
 ## Commitment
 * The group attended the acceptance test and sprint retrospective for the last sprint.
 * We estimated the story points for each feature in sprint 2's backlog using planning poker.
 
 We completed the following user stories
+
 * ID: 1. As a customer I instantly want to be prompted with the camera on my phone so that I can scan items (Estimate: 4 pts)
 * ID: 2. As a user I want to see what products that can be recycled so that I can recycle properly (Estimate: 7 pts)
 * ID: 3. As a user I want to scan at least two different item/product so that I can get information about them in the application (Estimate: 7 pts)
@@ -64,17 +64,19 @@ We completed the following user stories
 
 
 ## Work done
-[previous stuff]
-
- ID: 1. | 3 hours | Jesper O: 3 hours
- ID: 2. | 4 hours 20 mins | Mahshid: 2 hours, Emil: 2 hours, Jesper R: 1 hour
- ID: 3. | 8 hours 10 mins | Kalayu: 3 hours 40 mins , Johan: 4 hours 10 mins, Tom: 20 mins
-
-
-Stand-up meetings | 2 hours 20 mins | Kalayu: 20 mins, Johan: 20 mins, Mahshid: 20 mins, Emil: 20 mins, Jesper O: 20 mins, Jesper R: 20 mins
-Impedement removal | 45 mins | Jesper O: 45 mins
-
-Wrote report | 1 hours 20 mins | Jesper O: 40 mins, Jesper R: 40 mins
+Feature | Time estimated | Time spent per team member
+--------|----------------|--------
+*Set up the project environment*|*14 hours*|*Kalayu: 2 hours, Johan: 2 hours, Mahshid: 2 hours, Tom: 2 hours, Emil: 2 hours, Jesper O: 2 hours, Jesper R: 2 hours*
+*Filled the backlog and met with the customer*|*7 hours*|*Kalayu: 1 hour, Johan: 1 hour, Mahshid: 1 hour, Tom: 1 hours, Emil: 1 hour, Jesper O: 1 hour, Jesper R: 1 hour*
+*Initialised the report*|*40 mins*|*Jesper O: 40 mins*
+*Initialised the Android Project*|*20 mins*|*Johan: 20 mins*
+*Set up Travis-CI*|*20 mins*|*Jesper O: 20 mins*
+*ID: 1.*|*3 hours*|*Jesper O: 3 hours*
+*ID: 2.*|*4 hours 20 mins*|*Mahshid: 2 hours, Emil: 2 hours, Jesper R: 1 hour*
+*ID: 3.*|*8 hours 10 mins*|*Kalayu: 3 hours 40 mins , Johan: 4 hours 10 mins, Tom: 20 mins*
+*Stand-up meetings*|*2 hours 20 mins*|*Kalayu: 20 mins, Johan: 20 mins, Mahshid: 20 mins, Emil: 20 mins, Jesper O: 20 mins, Jesper R: 20 mins*
+*Impedement removal*|*45 mins*|*Jesper O: 45 mins*
+*Wrote report*|*1 hours 20 mins*|*Jesper O: 40 mins, Jesper R: 40 mins*
 
 ## Reflections
 
@@ -96,7 +98,7 @@ Please report on all activities; for example, in addition to coding, planning an
 
 Feature | Time estimated | Time spent per team member
 --------|----------------|--------
-*Name and ID of each feature* | *X hours* | *Member A: Y hours, Member B: Z hours*
+*Name and ID of each feature*|*X hours*|*Member A: Y hours, Member B: Z hours*
 
 ## Reflections
 Reflect on how the work worked.
