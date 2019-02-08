@@ -1,6 +1,6 @@
 % Agile Development Processes Project Report  
   Team X
-% Team Member A; Team Member B
+% Team Member A, name and email; Team Member B, name and email etc.
 %
 
 This is the project report template.
@@ -36,22 +36,17 @@ Feature | Time estimated | Time spent per team member
 Reflect on how the work worked.
 This data will form the basis for your final reflection.
 As the postmortem will be a writeup, it's fine to use shorthand notes, bullet list, and similar.
-Keep within 1000-1500 words.
+Keep the reflection part within 500 1000-words (per sprint).
 
 Discuss any deviations from the sprint commitment.
 
 Reflect on the agile practice practiced:
 
-- Did your experience correspond to or contradict with what literature claims?
+- What worked well?
 
-    - Analysis of why. Mostly interesting if something unexpected happens, but even
-      if everything runs according to plan, reflecting on the underlying mechanisms
-      can be interesting.
+- What can be improved?
 
-- How did the practices interact?
-  Did they complement or counteract each other?
-
-- How efficient were the practices, given the time they took to use?
+- What changes will you do for the next sprint?
 
 
 # Sprint X Log
@@ -60,16 +55,23 @@ Reflect on the agile practice practiced:
 
 # Postmortem
 Once the project is finished, summarize your experiences.
-The postmortem part shall be 2000-3000 words long.
+The postmortem part of the final report shall be within 1500-2000 words.
 
 Considering the following:
 
 - With regards to the agile practices, reflect on the combined experience from all sprints.
+  Did your experience correspond to or contradict with what literature claims?
+
+    - Analysis of why. Mostly interesting if something unexpected happens, but even
+      if everything runs according to plan, reflecting on the underlying mechanisms
+      can be interesting.
 
 - Which practices had the most impact on the software developed?
   Think of both positives and negatives.
 
-- What would you do differently in a future but similar project?
+- How did you manage dependencies towards other teams?
+
+    - What particular challenges did you encounter?
 
 
 # Project outcome
